@@ -1,0 +1,64 @@
+<html>
+    <div class="container">
+        <div class="centered">
+            <ul type="none" >
+                <li><a href="/portifolio.html">meu primeiro projeto</a></li>
+                <li><a href="calculadora.html">calculadora</a></li>
+                <li><a href="html_css_landing_page-main/index.html">formulário</a></li>
+            </ul>
+            <!-- Your content here -->
+        </div>
+    </div>
+
+
+</body>
+<style>
+    /* Styles for all screen sizes */
+    html {
+        background: rgb(10, 208, 240);
+        background: -moz-linear-gradient(180deg, rgba(10, 208, 240, 1) 0%, rgba(33, 0, 181, 1) 100%, rgba(28, 36, 245, 1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(10, 208, 240, 1) 0%, rgba(33, 0, 181, 1) 100%, rgba(28, 36, 245, 1) 100%);
+        background: linear-gradient(180deg, rgba(10, 208, 240, 1) 0%, rgba(33, 0, 181, 1) 100%, rgba(28, 36, 245, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0ad0f0", endColorstr="#1c24f5", GradientType=1);
+    }
+    a {
+        color: green;
+        text-decoration: none;
+        font-size: 34px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       
+    }
+    .centered {
+        margin: auto;
+    }
+    li {
+        border: 1px solid black;
+        padding: 10px;
+        margin-bottom: 10px;
+        background: rgb(221, 235, 27);
+        
+
+    }
+    /* Styles for screens with a maximum width of 767px (mobile) */
+    @media screen and (max-width: 767px) {
+        /* Add your styles here */
+        a {
+            font-size:34px;
+        }
+    }
+
+    /* Styles for screens with a minimum width of 768px and a maximum width of 1023px (tablet) */
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        /* Add your styles here */
+        a {
+            font-size: 28px;
+        }
+    }
+</style>
+
+</html>
