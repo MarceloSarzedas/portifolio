@@ -7,21 +7,24 @@
 }
 
 body {
-    background-image: url('banco de imagem/network-g1163165ac_1280.jpg');
+    background-image: url('banco de imagem/Design\ sem\ nome.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 header {
     background-color: #021f27;
-    box-shadow: 0px 3px 10px #464646;
+    border-radius: 25px;
 
 
 
 
 
 }
-
+.header{
+    display: flex;
+    justify-content: space-around;
+}
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -63,7 +66,9 @@ header {
 
 
 }
-
+.nav-item a {
+    text-decoration: none;
+}
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
@@ -152,10 +157,13 @@ header {
 
 /* fim do menu */
 
+.perfil {
+    margin: 5px 0 5px;
+}
 
 .perfil img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 5px solid rgb(29, 2, 21);
 
@@ -165,6 +173,7 @@ header {
 }
 
 .meio {
+    
     text-align: center;
 }
 
@@ -185,12 +194,12 @@ p {
     margin: 10px;
 }
 
-.icones {
+.caixa-de-dialogo , .icones {
+    
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5px 0 5px;
+    margin: 5px 0 5px; 
 }
 
 .imagens {
@@ -202,14 +211,17 @@ p {
 }
 
 .caixa-de-dialogo {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     font-size: 16px;
     text-align: justify;
     margin: 0 10px 0 10px;
     padding: 0 10px;
+    /* background-color: #fff; */
+
 }
 footer{
-    background-image:url(banco\ de\ imagem/artificial-intelligence-g015a804a9_1280.jpg);
+    background-image:url(banco\ de\ imagem/network-g1163165ac_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:  100px;
