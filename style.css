@@ -181,6 +181,8 @@ h3 {
     color: greenyellow;
     margin: 10px;
     font-family: monospace, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display: flex;  justify-content: center;  align-items: center;
 }
 
 h2 {
@@ -224,7 +226,7 @@ footer{
     background-image:url(banco\ de\ imagem/network-g1163165ac_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:  100px;
+    height:  70px;
    
    
 }
